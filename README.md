@@ -1,6 +1,6 @@
 #Hello
 
-A very small (10MiB uncompressed) image with Alpine Linux, TZ data, Lighttpd and Bash used to test deployments on clusters (Kubernetes) as well as standalone (Docker) container installations.
+A very small (download < 5MiB) image with Alpine Linux, TZ data, Lighttpd and Bash used to test deployments on clusters (Kubernetes) as well as standalone (Docker) container installations.
 
 [![Docker Repository on Quay](https://quay.io/repository/jcmoraisjr/hello/status "Docker Repository on Quay")](https://quay.io/repository/jcmoraisjr/hello)
 
