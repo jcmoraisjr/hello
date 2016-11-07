@@ -14,7 +14,7 @@ Nice for tests.
 
 Run:
 
-    docker run -p 8080:8080 quay.io/jcmoraisjr/hello
+    docker run -d -p 8080:8080 quay.io/jcmoraisjr/hello
 
 View:
 
@@ -22,14 +22,14 @@ View:
 
 Environment variables are propagated:
 
-    docker run -e TZ=Europe/Monaco -p 8080:8080 quay.io/jcmoraisjr/hello
+    docker run -d -e TZ=Europe/Monaco -p 8080:8080 quay.io/jcmoraisjr/hello
 
 Another env var?
 
-    docker run -e VAR1='user agent:HTTP_USER_AGENT' -p 8080:8080 quay.io/jcmoraisjr/hello
+    docker run -d -e VAR1='user agent:HTTP_USER_AGENT' -p 8080:8080 quay.io/jcmoraisjr/hello
 
 Another command?
 
-    docker run -e CMD1='env vars:env' -p 8080:8080 quay.io/jcmoraisjr/hello
+    docker run -d -e CMD1='env vars:env' -p 8080:8080 quay.io/jcmoraisjr/hello
 
 More than one env var or command? Define `VAR2`, `VAR3`, `CMD2`, `CMD3`, ...
